@@ -11,7 +11,11 @@
     right: 250px;
 }
 img{
-    border-radius: 50%;
+    /* border-radius: 50%; */
+}
+.people{
+    position: relative;
+    right: 5em;
 }
 :root{
     --box-shodow: 0 0.5rem 0.5rem rgba(0,0,0,0.3);
