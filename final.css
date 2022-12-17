@@ -6,12 +6,19 @@
     font-family: 'Georgia', cursive;
     transition: all 0.2s linear;
 }
+body{
+    background: linear-gradient(rgba(0,0,0,5)rgba(0,0,0,5)url(fon.png));
+    color: rgb(83, 71, 71);
+    font-family: sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+}
 .hours{
     position: relative;
     right: 250px;
 }
 img{
-    /* border-radius: 50%; */
+    border-radius: 50%;
 }
 .people{
     position: relative;
