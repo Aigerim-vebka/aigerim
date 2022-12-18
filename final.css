@@ -7,7 +7,7 @@
     transition: all 0.2s linear;
 }
 body{
-    background: url(https://avatars.mds.yandex.net/get-altay/4587805/2a0000017a0fb732daf4158d2c6eff32c01d/XXL);
+    background: url(fon1.png);
     backdrop-filter: blur(5px);
     color: rgb(255, 255, 255);
     font-family: sans-serif;
@@ -416,9 +416,9 @@ header .items .btn{
     transform: translateY(-1rem);
 }
 .review .row .box img{
-    height: 10rem;
-    width: 10rem;
-    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    /* border-radius: 50%; */
 }
 .review .row .box h3{
     font-size: 1.8rem;
