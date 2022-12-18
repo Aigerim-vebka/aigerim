@@ -7,22 +7,21 @@
     transition: all 0.2s linear;
 }
 body{
-    background: linear-gradient(rgba(0,0,0,5)rgba(0,0,0,5)url(fon.png));
-    color: rgb(83, 71, 71);
+    background: url(https://avatars.mds.yandex.net/get-altay/4587805/2a0000017a0fb732daf4158d2c6eff32c01d/XXL);
+    backdrop-filter: blur(5px);
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     background-size: cover;
     background-attachment: fixed;
 }
-.hours{
-    position: relative;
-    right: 250px;
-}
 img{
-    border-radius: 50%;
+    border-radius: 30%;
 }
-.people{
-    position: relative;
-    right: 5em;
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
 }
 :root{
     --box-shodow: 0 0.5rem 0.5rem rgba(0,0,0,0.3);
@@ -46,10 +45,11 @@ html::-webkit-scrollbar-thumb{
 }
 .btn{
     display: inline-block;
+    border-radius: 15px;
     margin: 1rem 0;
     padding: 0.6rem 3rem;
-    color: #fff;
-    background: var(--sc-color);
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     cursor: pointer;
     font-size: 1.7rem;
 }
@@ -99,15 +99,11 @@ html::-webkit-scrollbar-thumb{
       -28px 56px 1px #e4e3e2;
 }
 
-/* .heading span{
-    color: var(--mincolor);
-} */
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
-    box-shadow: var(--box-shodow);
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
@@ -123,11 +119,11 @@ header .logo{
 header .navbar a{
     margin: 0 0.7rem;
     font-size: 2rem;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 header .navbar a:hover{
-    color: blue;
-    border-bottom: 0.1em solid blue;
+    color: rgb(255, 255, 255);
+    border-bottom: 0.1em solid rgb(255, 255, 255);
     padding-bottom: 0.5rem;
 }
 header .icons div{
@@ -161,14 +157,13 @@ header .search-form.active{
 header .search-form input{
     height: 100%; width: 100%;
     font-size: 1.5rem;
-    color: var(--mincolor);
     padding: 0.4rem;
 }
 header .search-form label{
     cursor: pointer;
     font-size: 1.2rem;
     padding: 0.3rem;
-    color: var(--mincolor);
+    color: blue;
 }
 header .search-form label:hover{
     color: var(--sc-color);
@@ -272,11 +267,8 @@ header .items .btn{
     height: 25rem;
     object-fit: cover;
 } 
-.about .row .content{
-    background: rgb(250, 240, 240);
-    text-align: center;
-    padding: 2rem;
-}
+
+
 .about .row .content h3{
     font-size: 3rem;
     margin: 2rem;
@@ -284,6 +276,7 @@ header .items .btn{
 .about .row .content p{
     font-size: 1.9rem;
     margin: 1.1rem;
+    color: rgb(0, 0, 0);
 }
 .products{
     background: #333;
@@ -333,7 +326,6 @@ header .items .btn{
     color: #fff;
 }
 .products .row .colm .content .content-p .btn-p{
-    border: 0.1rem solid var(--sc-color);
     color: #000;
     font-size: 1.6rem;
     border-radius: 0.5rem;
@@ -397,9 +389,8 @@ header .items .btn{
     padding: 1rem 0;
     font-size: 1.8rem;
     line-height: 1;
-    color: var(--mincolor);
     margin-bottom: 0;
-    color: #000;
+    
 
 }
 .review{
@@ -561,7 +552,6 @@ header .items .btn{
 }
 
 
-
 /* media query */
 
 
@@ -649,7 +639,3 @@ header .items .btn{
 
 
 }
-
-
-
-
