@@ -7,7 +7,7 @@
     transition: all 0.2s linear;
 }
 body{
-    background: url(fon1.png);
+    background: url(фон2.png);
     backdrop-filter: blur(5px);
     color: rgb(39, 37, 37);
     font-family: sans-serif;
@@ -246,10 +246,14 @@ header .items .btn{
     }
 } 
 .home .home-content .home-i h1{
-    font-size: 4.3rem;
+    position: relative;
+    font-size: 4.7rem;
+    left: -9rem;
 }
 .home .home-content .home-i p{
+    position: relative;
     font-size: 1.7rem;
+    left: -9rem;
 }
 .about{
 
@@ -309,7 +313,7 @@ header .items .btn{
 }
 .products .row .colm .content h3{
     font-size: 3rem;
-    color: #000;
+    color: black;
 }
 .products .row .colm .content .content-p{
     display: flex;
@@ -326,7 +330,6 @@ header .items .btn{
     color: #fff;
 }
 .products .row .colm .content .content-p .btn-p{
-    color: #000;
     font-size: 1.6rem;
     border-radius: 0.5rem;
     padding: 0.2rem 0.8rem;
@@ -564,7 +567,7 @@ header .items .btn{
     }
     header .navbar{
         position: fixed;
-        /*   */ top: 1000rem;
+        top: 1000rem;
         left:0;
         background: rgb(22, 22, 22);
         width: 100%;
